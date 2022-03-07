@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A92FFF2027D481E40090A6A6 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92FFF1F27D481E40090A6A6 /* Repository.swift */; };
 		A965F8BA27D378BD004A4CB0 /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965F8B927D378BD004A4CB0 /* RepositoryListViewController.swift */; };
 		A965F8BC27D3795C004A4CB0 /* RepositoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965F8BB27D3795C004A4CB0 /* RepositoryListCell.swift */; };
 		A965F8C027D379AD004A4CB0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A965F8BF27D379AD004A4CB0 /* SnapKit */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		41FF1B156B87602E9D7D569D /* Pods-GitHubRepository.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubRepository.debug.xcconfig"; path = "Target Support Files/Pods-GitHubRepository/Pods-GitHubRepository.debug.xcconfig"; sourceTree = "<group>"; };
 		6DD332B08143AF01C3E9AADD /* Pods-GitHubRepository.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubRepository.release.xcconfig"; path = "Target Support Files/Pods-GitHubRepository/Pods-GitHubRepository.release.xcconfig"; sourceTree = "<group>"; };
+		A92FFF1F27D481E40090A6A6 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		A965F8B927D378BD004A4CB0 /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
 		A965F8BB27D3795C004A4CB0 /* RepositoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCell.swift; sourceTree = "<group>"; };
 		A9A664F527C4CA9B00347034 /* GitHubRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,7 @@
 				A9A664FA27C4CA9B00347034 /* SceneDelegate.swift */,
 				A965F8B927D378BD004A4CB0 /* RepositoryListViewController.swift */,
 				A965F8BB27D3795C004A4CB0 /* RepositoryListCell.swift */,
+				A92FFF1F27D481E40090A6A6 /* Repository.swift */,
 				A9A6650127C4CA9C00347034 /* Assets.xcassets */,
 				A9A6650327C4CA9C00347034 /* LaunchScreen.storyboard */,
 				A9A6650627C4CA9C00347034 /* Info.plist */,
@@ -215,6 +218,7 @@
 			files = (
 				A9A664F927C4CA9B00347034 /* AppDelegate.swift in Sources */,
 				A9A664FB27C4CA9B00347034 /* SceneDelegate.swift in Sources */,
+				A92FFF2027D481E40090A6A6 /* Repository.swift in Sources */,
 				A965F8BA27D378BD004A4CB0 /* RepositoryListViewController.swift in Sources */,
 				A965F8BC27D3795C004A4CB0 /* RepositoryListCell.swift in Sources */,
 			);
