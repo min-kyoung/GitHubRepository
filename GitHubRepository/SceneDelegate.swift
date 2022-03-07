@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let rootViewController = RepositoryListViewController()
         let rootNavigationController = UINavigationController(rootViewController: rootViewController)
         
-        self.window?.rootViewController = rootViewController
+        self.window?.rootViewController = rootNavigationController
         self.window?.makeKeyAndVisible()
     }
 
